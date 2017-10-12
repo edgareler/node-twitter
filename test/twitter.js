@@ -169,12 +169,7 @@ describe('Twitter', function() {
 
         assert.equal(
           client.__buildEndpoint(endpoint),
-          endpoint + '.json'
-        );
-
-        assert.equal(
-          client.__buildEndpoint(endpoint),
-          endpoint + '.json'
+          endpoint
         );
       });
     });
